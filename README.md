@@ -14,10 +14,7 @@ This project is a **ray tracer** developed in C++ to generate realistic 3D image
 
 ## Planned Features
 
-- **Dielectric Materials**: Support for transparent materials like glass (refraction and transparency).
-- **Customizable Camera**: Implementation of an adjustable camera with support for:
-  - **Depth of Field**: Simulating focus effects.
-  - **Field of View**: Allowing for different viewing angles.
+This ray tracer is a work in progress with plans to add advanced features. Planned features include:
 - **Motion Blur**: Implementing camera to simulate motion blur.
 - **Texture Mapping**: Support for constant color texture and texture coordinates for spheres.
 - **Lights**: Introduce emmissive materials and turning objects into lights.
