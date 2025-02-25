@@ -22,9 +22,10 @@ This project is a **ray tracer** developed in C++ to generate realistic 3D image
 ## Code Structure
 
 The project is structured using **object-oriented programming** principles to ensure modularity and scalability. Key components include:
-- **Scene Objects**: Spheres and other geometric primitives.
-- **Materials**: Classes for different material types.
-- **Renderer**: Core logic for ray tracing and image generation.
+- **Ray Class**: Represents a ray with an origin and direction.
+- **Camera Class**: Defines the viewpoint and field of view for rendering.
+- **Hittable Objects**: Spheres and other geometric primitives that can be intersected by rays.
+- **Materials**: Classes for different material types, including Diffuse and Metal.
 
 ## Output
 
