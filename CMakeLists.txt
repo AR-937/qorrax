@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Set your source files
-set ( SOURCE_WEEKEND
+set ( SOURCE
   src/main.cc
   src/camera.h
   src/color.h
@@ -23,4 +23,4 @@ set ( SOURCE_WEEKEND
 include_directories(src)
 
 # Define the executable
-add_executable(ray_tracer ${SOURCE_WEEKEND})
+add_executable(ray_tracer ${SOURCE})
